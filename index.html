@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de T</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main">
+    <h1 class="main_title">Lista de Tareas</h1>
+
+    <section class="Section Section-form">
+    <h2 class="Section_title">Crear Tarea</h2>
+    <form class="form">
+        <label class="form_label" for="taskInput ">Tarea: </label>
+        <input class="form_input" id="taskInput" type="text">
+        <button class="form_button" type="submit">crear</button>
+        </form>
+        <div class="error"></div>
+    </section>
+    
+    <section class="Section section_list"></section>
+    <h2 class="Section title"> Listado Tarea</h2>
+    <ul id="taskList" class="tacks">
+        <li class="task_item">
+            <p class="">Tarea 1</p>
+
+            <div>
+                <i class="bx bx_check"></i>
+                <i class="bx bx_trash"></i>
+
+            </div>
+        </li>
+
+        <li class="task_item">
+            <p class="done">Tarea 2</p>
+            <div>
+              
+                <i class="bx bx_check"></i>
+                <i class="bx bx_trash"></i>
+
+            </div>  
+        </li>
+
+        <li class="task_item">
+            <p class="">Tarea 3</p>
+            <div>
+                <i class="bx bx_check"></i>
+                <i class="bx bx_trash"></i> 
+            </div>
+        </li>
+    </ul>
+    </section>
+    </main>
+<script src="js/script.js"></script>
+
+</body>
+<footer class="footer">
+    <small>Copyright 2024. By Evangelina Moyano</small>
+</footer>
+</html>
